@@ -6,7 +6,7 @@
 To test the first load, delete your localDB to force the client to resync with the remote DB
 
 ## Testing a push from the remote DB
-update an entry (e.g. express-rosegardens) through couch's interface
+update an entry (e.g. express-rosegardens) through couch's interface: `http://${IP}:5984/_utils/`
 `http://${IP}:${PORT}/_utils/#/database/projects/_all_docs`
 
 # Uploading data to the DB
